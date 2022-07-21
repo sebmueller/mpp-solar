@@ -315,7 +315,7 @@ COMMANDS = {
 }
 
 
-class pi30revo(AbstractProtocol):~
+class pi30revo(AbstractProtocol):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__()
         self._protocol_id = b"PI30REVO"
